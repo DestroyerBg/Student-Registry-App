@@ -11,10 +11,5 @@ pipeline {
                 bat 'npm test'
             }
         }
-        stage('Run app') {
-            steps {
-                bat 'npm run start &'
-            }
-        }
     }
 }
